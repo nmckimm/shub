@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import requests
 
 app = Flask(__name__)
-
+# implement try catch with exception
 repo_list = requests.get("https://api.github.com/users/scrapinghub/repos?page=1&per_page=100")
 repo_list2 = requests.get("https://api.github.com/users/scrapinghub/repos?page=2&per_page=100")
 
@@ -29,6 +29,23 @@ print("\nNumber of project names: ", len(project_name))
 print("Number of  stargazers counts: ", len(stargazers_count))
 print("Number of project urls: ", len(project_url))
 
+
+def bubble_sort(stargazers_count, project_name, project_url):
+    # function to sort the three arrays
+    is_swapped = True
+    while is_swapped:
+        is_swapped = False
+        for i in range(len(stargazers_count)-1):
+            if stargazers_count[i] < stargazers_count[i+1]:
+                stargazers_count[i], stargazers_count[i+1] = stargazers_count[i+1], stargazers_count[i]
+                project_name[i], project_name[i+1] = project_name[i+1], project_name[i]
+                project_url[i], project_url[i+1] = project_url[i+1], project_url[i]
+                is_swapped = True
+    return stargazers_count, project_name, project_url
+
+
+sorted_arrays = bubble_sort(stargazers_count, project_name, project_url)
+stargazers_count, project_name, project_url = sorted_arrays[0], sorted_arrays[1], sorted_arrays[2]
 
 @app.route('/', methods=['GET'])
 def home():

@@ -1,3 +1,20 @@
+table, td, th {
+  border: 1px solid black;
+}
+th {
+  padding: 15px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  color: whitesmoke;
+  background-color: gray;
+}
+td {
+  padding: 15px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  color: gray;
+  background-color: whitesmoke;  
+}
 table {
-  width: 500px;
+  width: 80%;
 }

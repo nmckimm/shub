@@ -45,12 +45,17 @@ def bubble_sort(stargazers_count, project_name, project_url):
 
 
 sorted_arrays = bubble_sort(stargazers_count, project_name, project_url)
-stargazers_count, project_name, project_url = sorted_arrays[0], sorted_arrays[1], sorted_arrays[2]
+# splitting bubble sort output into the original three arrays then slicing the arrays to only contain the first 10
+# values in each
+stargazers_count, project_name, project_url = sorted_arrays[0][0:10], sorted_arrays[1][0:10], sorted_arrays[2][0:10]
+print(stargazers_count, project_name, project_url)
+
 
 @app.route('/', methods=['GET'])
 def home():
 
-    return render_template("index.html")
+    return render_template("index.html", stargazers_count=stargazers_count, project_name=project_name,
+                           project_url=project_url)
 
 if __name__ == '__main__':
     app.run()

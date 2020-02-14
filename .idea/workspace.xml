@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859f820f-abf6-4931-a6cc-f7cbabe4396f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/shub$shub.coverage" NAME="shub Coverage Results" MODIFIED="1581691660404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/shub$shub.coverage" NAME="shub Coverage Results" MODIFIED="1581695768934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1487396554">
@@ -23,12 +25,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1712" />
+          <entry key="py" value="1978" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1712" />
+          <entry key="Python" value="1978" />
         </counts>
       </usages-collector>
     </session>
@@ -38,12 +40,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="885">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1581691670985" expanded="true" signature="1258:1263" ph="..." />
-                <marker date="1581691670985" expanded="true" signature="1298:2019" ph="..." />
+                <marker date="1581693820353" expanded="true" signature="1258:1263" ph="..." />
+                <marker date="1581693820353" expanded="true" signature="1298:2221" ph="..." />
               </folding>
             </state>
           </provider>
@@ -189,12 +191,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="885">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1581691670985" expanded="true" signature="1258:1263" ph="..." />
-            <marker date="1581691670985" expanded="true" signature="1298:2019" ph="..." />
+            <marker date="1581693820353" expanded="true" signature="1258:1263" ph="..." />
+            <marker date="1581693820353" expanded="true" signature="1298:2221" ph="..." />
           </folding>
         </state>
       </provider>

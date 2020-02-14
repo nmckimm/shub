@@ -3,9 +3,9 @@
 <title>Scrapinghub's Most Popular Repositories</title>
 <link rel = "stylesheet"
   type = "text/css"
-  href = "../static/style_sheet.css" />
+  href = "{{ url_for('static',filename='styles/style_sheet.css') }}" />
 </head>
-
+{{ url_for('static',filename='styles/mainpage.css') }}
 <body>
   <table>
   <caption>Scrapinghub's GitHub Top10</caption>
@@ -18,43 +18,43 @@
   <tbody>
   <tr>
     <td>{{stargazers_count[0]}}&#11089;</td>
-    <td>{{project_name[0]}}</td>
+    <td><a href="{{project_url[0]}}">{{project_name[0]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[1]}}&#11089;</td>
-    <td>{{project_name[1]}}</td>
+    <td><a href="{{project_url[1]}}">{{project_name[1]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[2]}}&#11089;</td>
-    <td>{{project_name[2]}}</td>
+    <td><a href="{{project_url[2]}}">{{project_name[2]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[3]}}&#11089;</td>
-    <td>{{project_name[3]}}</td>
+    <td><a href="{{project_url[3]}}">{{project_name[3]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[4]}}&#11089;</td>
-    <td>{{project_name[4]}}</td>
+    <td><a href="{{project_url[4]}}">{{project_name[4]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[5]}}&#11089;</td>
-    <td>{{project_name[5]}}</td>
+    <td><a href="{{project_url[5]}}">{{project_name[5]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[6]}}&#11089;</td>
-    <td>{{project_name[6]}}</td>
+    <td><a href="{{project_url[6]}}">{{project_name[6]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[7]}}&#11089;</td>
-    <td>{{project_name[7]}}</td>
+    <td><a href="{{project_url[7]}}">{{project_name[7]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[8]}}&#11089;</td>
-    <td>{{project_name[8]}}</td>
+    <td><a href="{{project_url[8]}}">{{project_name[8]}}</a></td>
   </tr>
   <tr>
     <td>{{stargazers_count[9]}}&#11089;</td>
-    <td>{{project_name[9]}}</td>
+    <td><a href="{{project_url[9]}}">{{project_name[9]}}</a></td>
   </tr>
 
 </tbody>
